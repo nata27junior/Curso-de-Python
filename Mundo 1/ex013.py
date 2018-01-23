@@ -1,0 +1,5 @@
+sal=float(input('salario : '))
+salnovo= sal + (sal*0.15)
+print('salario era R$ {:.2f} com aumento 15% é R$ {:.2f}'.format(sal, salnovo))
+salnovo2= sal + (sal*15/100)
+print('salario era R$ {:.2f} com aumento 15% é R$ {:.2f}'.format(sal, salnovo2))
